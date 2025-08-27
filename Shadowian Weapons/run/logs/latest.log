@@ -1,0 +1,17 @@
+[19:12:11] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21.1 with Fabric Loader 0.17.2
+[19:12:11] [main/WARN] (FabricLoader/Resolution) Mod resolution failed
+[19:12:11] [main/INFO] (FabricLoader/Resolution) Immediate reason: [HARD_DEP_NO_CANDIDATE shadowian-weapons 1.0.0 {depends fabric loader @ [>=0.17.2]}, ROOT_FORCELOAD_SINGLE shadowian-weapons 1.0.0]
+[19:12:11] [main/INFO] (FabricLoader/Resolution) Reason: [HARD_DEP shadowian-weapons 1.0.0 {depends fabric loader @ [>=0.17.2]}]
+[19:12:11] [main/INFO] (FabricLoader/Resolution) Fix: add [add:fabric loader 0.17.2 ([[0.17.2,∞)])], remove [], replace []
+[19:12:11] [main/ERROR] (FabricLoader) Incompatible mods found!
+net.fabricmc.loader.impl.FormattedException: Some of your mods are incompatible with the game or each other!
+A potential solution has been determined, this may resolve your problem:
+	 - Install fabric loader, version 0.17.2 or later.
+More details:
+	 - Mod 'Shadowian Weapons' (shadowian-weapons) 1.0.0 requires version 0.17.2 or later of fabric loader, which is missing!
+	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:51) ~[fabric-loader-0.17.2.jar:?]
+	at net.fabricmc.loader.impl.FabricLoaderImpl.load(FabricLoaderImpl.java:202) ~[fabric-loader-0.17.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:142) ~[fabric-loader-0.17.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:66) [fabric-loader-0.17.2.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) [fabric-loader-0.17.2.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) [dev-launch-injector-0.2.1+build.8.jar:?]

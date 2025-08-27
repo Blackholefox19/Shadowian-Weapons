@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowian-weapons",
+  "version": "1.0.0",
+  "name": "Shadowian Weapons",
+  "description": "My first mod! just a simple mod adding a base new material to make new weapons, ofc there may be balance issues as the best weapon comes exactly to the power of the cosmic sword, but anyways have fun!",
+  "authors": [
+    "Blackholefox19"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-Shadow-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/shadowian-weapons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "name.mo did.ShadowianWeapons"
+    ],
+    "fabric-datagen": [
+      "name.mo did.ShadowianWeaponsDataGenerator"
+    ],
+    "Client": ["name.mo did.:Shadowian_Weapons_client"]
+
+  },
+  "mixins": [
+    "shadowian-weapons.mixins.json"
+  ],
+  "depends": {
+    "fabric loader": ">=0.17.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
