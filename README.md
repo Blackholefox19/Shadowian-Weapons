@@ -1,1 +1,2 @@
 my first mod, so yea there will be issues i may or may not fix. adds a new set higher than netherite that is the basis for the new weapons i will also be adding, with the most powerfull doing a /kill hit. also adds a new crafting table to craft the new weapons.
+0.0.0 is unusable, remaking this from a new template to try to fix issue
